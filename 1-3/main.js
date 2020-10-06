@@ -3,13 +3,13 @@ let a;
 console.log(a !== 10);
 
 let b;
-if(10<=b>=20 && b%2 === 0){
+if(10<=b && b>=20 && b%2 === 0){
     console.log(b);
 }
 
 //問2
 let x =10
-if(10<=x>=20){
+if(10<=x && x>=20){
     console.log('成功です');
 }else{
     console.log('失敗です');
